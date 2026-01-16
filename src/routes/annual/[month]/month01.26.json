@@ -1,0 +1,131 @@
+{
+	"date": "01.26",
+	"zak": 8,
+	"orders": [
+		{
+			"id": "03-01/65",
+			"date": "03.01",
+			"status": "done",
+			"address": "ул. Ленина, 45",
+			"clientName": {
+				"name": "Иванов И.И."
+			},
+			"clientPhone": {
+				"phone": "+7 (999) 123-45-67"
+			},
+			"firmBalance": {
+				"value": 17000,
+				"currency": "RUB"
+			},
+			"income": {
+				"value": 2300,
+				"currency": "RUB"
+			},
+			"earning": {
+				"value": 700,
+				"sign": false,
+				"currency": "RUB"
+			}
+		},
+		{
+			"id": "03-01/64",
+			"date": "02.01",
+			"status": "in-work",
+			"address": "пр. Победы, 12",
+			"clientName": {
+				"name": "Петров П.П."
+			},
+			"clientPhone": {
+				"phone": "+7 (999) 234-56-78"
+			},
+			"firmBalance": {
+				"value": 23000,
+				"currency": "RUB"
+			},
+			"income": {
+				"value": 5100,
+				"currency": "RUB"
+			},
+			"earning": {
+				"value": 1200,
+				"sign": true,
+				"currency": "RUB"
+			}
+		},
+		{
+			"id": "03-01/63",
+			"date": "01.01",
+			"status": "deny",
+			"address": "ул. Мира, 78",
+			"clientName": {
+				"name": "Сидоров А.В."
+			},
+			"clientPhone": {
+				"phone": "+7 (999) 345-67-89"
+			},
+			"firmBalance": {
+				"value": 8000,
+				"currency": "RUB"
+			},
+			"income": {
+				"value": 0,
+				"currency": "RUB"
+			},
+			"earning": {
+				"value": 300,
+				"sign": false,
+				"currency": "RUB"
+			}
+		},
+		{
+			"id": "03-01/62",
+			"date": "31.12",
+			"status": "done",
+			"address": "ул. Гагарина, 23",
+			"clientName": {
+				"name": "Кузнецов В.С."
+			},
+			"clientPhone": {
+				"phone": "+7 (999) 456-78-90"
+			},
+			"firmBalance": {
+				"value": 31000,
+				"currency": "RUB"
+			},
+			"income": {
+				"value": 8700,
+				"currency": "RUB"
+			},
+			"earning": {
+				"value": 3400,
+				"sign": true,
+				"currency": "RUB"
+			}
+		},
+		{
+			"id": "03-01/61",
+			"date": "30.12",
+			"status": "in-work",
+			"address": "пл. Свободы, 5",
+			"clientName": {
+				"name": "Морозов Д.А."
+			},
+			"clientPhone": {
+				"phone": "+7 (999) 567-89-01"
+			},
+			"firmBalance": {
+				"value": 19000,
+				"currency": "RUB"
+			},
+			"income": {
+				"value": 4200,
+				"currency": "RUB"
+			},
+			"earning": {
+				"value": 900,
+				"sign": true,
+				"currency": "RUB"
+			}
+		}
+	]
+}

@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-<div class="layout p-4 mt-4">{@render children()}</div>
+<div class="layout p-2 mt-4">{@render children()}</div>
 
 <style>
 	.layout {

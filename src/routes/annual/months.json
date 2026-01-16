@@ -1,0 +1,82 @@
+[
+	{
+		"id": 0,
+		"date": "01.26",
+		"zak": 8,
+		"nb": {
+			"value": 45200,
+			"sign": true,
+			"currency": "RUB"
+		},
+		"real": {
+			"value": 52000,
+			"currency": "RUB"
+		}
+	},
+	{
+		"id": 2,
+		"date": "12.25",
+		"zak": 12,
+		"nb": {
+			"value": 8333,
+			"sign": false,
+			"currency": "RUB"
+		},
+		"real": { "value": 67555, "currency": "RUB" }
+	},
+	{
+		"id": 3,
+		"date": "11.25",
+		"zak": 15,
+		"nb": {
+			"value": 92777,
+			"sign": true,
+			"currency": "RUB"
+		},
+		"real": { "value": 105222, "currency": "RUB" }
+	},
+	{
+		"id": 4,
+		"date": "10.25",
+		"zak": 9,
+		"nb": {
+			"value": 34111,
+			"sign": true,
+			"currency": "RUB"
+		},
+		"real": { "value": 58999, "currency": "RUB" }
+	},
+	{
+		"id": 5,
+		"date": "09.25",
+		"zak": 6,
+		"nb": {
+			"value": 15444,
+			"sign": false,
+			"currency": "RUB"
+		},
+		"real": { "value": 42333, "currency": "RUB" }
+	},
+	{
+		"id": 6,
+		"date": "08.25",
+		"zak": 11,
+		"nb": {
+			"value": 78666,
+			"sign": true,
+			"currency": "RUB"
+		},
+		"real": { "value": 89111, "currency": "RUB" }
+	},
+	{
+		"id": 7,
+		"date": "07.25",
+		"zak": 7,
+		"nb": {
+			"value": 23888,
+			"sign": true,
+			"currency": "RUB"
+		},
+		"real": { "value": 51444, "currency": "RUB" }
+	}
+]
