@@ -7,8 +7,7 @@
 	--blue: #42a5f5;
 	--green: #4caf50;
 	--green-debit: #66bb6a;
-	--pico-font-size: 0.7rem;
-  --pico-color: #aaacb4;
+	--violet: #a78bfa;
 }
 
 @theme {
@@ -43,6 +42,10 @@
   color: var(--red);
 }
 
+.bg-red {
+  background-color: var(--red);
+}
+
 .blue {
   color: var(--blue);
 }
@@ -56,7 +59,7 @@
 }
 
 .violet {
-	color: var(--color-violet-500);
+	color: var(--violet);
 }
 
 .orange {

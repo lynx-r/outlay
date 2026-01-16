@@ -5,6 +5,7 @@
 	import type { PageProps } from "./$types";
 
   const {data}: PageProps = $props()
+  const month = $derived(data.month);
 </script>
 
 <div>
@@ -12,13 +13,13 @@
     <div class="col-span-2"><button class="">⭠</button></div>
     <div class="col-span-2 flex justify-between">
       <div class="font-black">·</div>
-      <div>{data.month.date}</div>
+      <div>{month.date}</div>
       <div class="font-black">·</div>
-      <div>{data.month.zak} зак</div>
+      <div>{month.zak} зак</div>
     </div>
   </div> 
   <div class="grid grid-cols-1 gap-4">
-    {#each data.month.orders as order (order.id)}
+    {#each month.orders as order (order.id)}
       <div class="flex flex-col gap-1 border border-gray-700 p-2 flex-1 bg-gray-800 rounded-sm">
         <div class="flex justify-between gray">
           <div>#{order.id}</div>

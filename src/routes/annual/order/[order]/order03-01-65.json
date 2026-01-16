@@ -1,0 +1,128 @@
+{
+	"id": "03-01/65",
+	"date": "03.01.25",
+	"address": "ул. Ленина, 45",
+	"status": "done",
+	"clientName": {
+		"name": "Иванов И.И."
+	},
+	"clientPhone": {
+		"phone": "+7 (999) 123-45-67"
+	},
+	"yourOutlay": {
+		"items": [
+			{
+				"id": 0,
+				"name": "Такси",
+				"money": {
+					"value": 1750,
+					"currency": "RUB"
+				}
+			},
+			{
+				"id": 1,
+				"name": "Автобус",
+				"money": {
+					"value": 0,
+					"currency": "RUB"
+				}
+			},
+			{
+				"id": 2,
+				"name": "Еда",
+				"money": {
+					"value": 850,
+					"currency": "RUB"
+				}
+			},
+			{
+				"id": 3,
+				"name": "ЗЧ свои",
+				"money": {
+					"value": 780,
+					"currency": "RUB"
+				}
+			}
+		],
+		"rest": {
+			"name": "Иное",
+			"money": {
+				"value": 0,
+				"currency": "RUB"
+			}
+		},
+		"varranty": {
+			"name": "Гарантия",
+			"money": {
+				"value": 0,
+				"currency": "RUB"
+			}
+		},
+		"yourTotal": {
+			"before": {
+				"value": 3380,
+				"currency": "RUB"
+			},
+			"after": {
+				"value": 3600,
+				"currency": "RUB"
+			}
+		}
+	},
+	"income": {
+		"items": [
+			{
+				"name": "Залог",
+				"money": {
+					"value": 2000,
+					"currency": "RUB"
+				}
+			},
+			{
+				"name": "Фирма",
+				"money": {
+					"value": 15000,
+					"currency": "RUB"
+				}
+			},
+			{
+				"name": "ЗЧ офис",
+				"money": {
+					"value": 4800,
+					"currency": "RUB"
+				}
+			},
+			{
+				"name": "Расходка",
+				"money": {
+					"value": 700,
+					"currency": "RUB"
+				}
+			}
+		],
+		"firmTotal": {
+			"value": 17000,
+			"currency": "RUB"
+		},
+		"firmTips": {
+			"value": 500,
+			"currency": "RUB"
+		},
+		"additionalPayment": {
+			"value": 1000,
+			"currency": "RUB"
+		},
+		"kindness": {
+			"value": 800,
+			"currency": "RUB"
+		},
+		"totalForOrder": {
+			"value": 19300,
+			"currency": "RUB"
+		},
+		"totalFirmBalance": {
+			"value": 17000,
+			"currency": "RUB"
+		}
+	}
+}
