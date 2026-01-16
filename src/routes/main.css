@@ -46,6 +46,10 @@
   background-color: var(--red);
 }
 
+.border-red {
+	border: 1px solid var(--red);
+}
+
 .blue {
   color: var(--blue);
 }
@@ -54,12 +58,28 @@
   color: var(--green);
 }
 
+.bg-green {
+  background-color: var(--green);
+}
+
+.border-green {
+	border: 1px solid var(--green);
+}
+
 .green-debit {
   color: var(--green-debit);
 }
 
+.bg-green-debit {
+  background-color: #2e6930;
+}
+
 .violet {
 	color: var(--violet);
+}
+
+.bg-violet {
+	background-color: #594a87;
 }
 
 .orange {

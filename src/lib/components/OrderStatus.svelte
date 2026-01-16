@@ -1,5 +1,7 @@
 <script lang="ts">
-    const {status} = $props()
+	import type { OrderStatus } from "$lib/types";
+
+    const {status}: {status: OrderStatus} = $props()
 </script>
 
 {#if status === 'done'}

@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { YourOutlay } from "$lib/types";
+	import type { YourOutlayItem } from "$lib/types";
 	import Money from "./Money.svelte";
 
-  const {outlay}: {outlat: YourOutlay} = $props()
+  const {outlay}: {outlay: YourOutlayItem} = $props()
 </script>
 
 <div class="flex justify-between">

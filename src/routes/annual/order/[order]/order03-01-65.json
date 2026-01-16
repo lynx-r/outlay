@@ -3,10 +3,8 @@
 	"date": "03.01.25",
 	"address": "ул. Ленина, 45",
 	"status": "done",
-	"clientName": {
-		"name": "Иванов И.И."
-	},
-	"clientPhone": {
+	"client": {
+		"name": "Иванов И.И.",
 		"phone": "+7 (999) 123-45-67"
 	},
 	"yourOutlay": {
@@ -72,57 +70,76 @@
 	"income": {
 		"items": [
 			{
+				"id": 0,
 				"name": "Залог",
 				"money": {
 					"value": 2000,
+					"sign": true,
 					"currency": "RUB"
-				}
+				},
+				"payStatus": "part"
 			},
 			{
+				"id": 1,
 				"name": "Фирма",
 				"money": {
 					"value": 15000,
+					"sign": true,
 					"currency": "RUB"
-				}
+				},
+				"payStatus": "full"
 			},
 			{
+				"id": 2,
 				"name": "ЗЧ офис",
 				"money": {
 					"value": 4800,
-					"currency": "RUB"
-				}
-			},
-			{
-				"name": "Расходка",
-				"money": {
-					"value": 700,
+					"sign": false,
 					"currency": "RUB"
 				}
 			}
 		],
-		"firmTotal": {
-			"value": 17000,
-			"currency": "RUB"
+		"outlay": {
+			"name": "Расходка",
+			"money": {
+				"value": 700,
+				"sign": true,
+				"currency": "RUB"
+			}
 		},
-		"firmTips": {
-			"value": 500,
-			"currency": "RUB"
-		},
-		"additionalPayment": {
-			"value": 1000,
-			"currency": "RUB"
-		},
-		"kindness": {
-			"value": 800,
-			"currency": "RUB"
-		},
-		"totalForOrder": {
-			"value": 19300,
-			"currency": "RUB"
-		},
-		"totalFirmBalance": {
-			"value": 17000,
-			"currency": "RUB"
-		}
+		"summary": [
+			{
+				"id": 0,
+				"name": "Фирма итого",
+				"money": {
+					"value": 17000,
+					"currency": "RUB"
+				}
+			},
+			{
+				"id": 1,
+				"name": "Чаевые (от фирмы)",
+				"money": {
+					"value": 500,
+					"currency": "RUB"
+				}
+			},
+			{
+				"id": 2,
+				"name": "Доплата (клиент)",
+				"money": {
+					"value": 1000,
+					"currency": "RUB"
+				}
+			},
+			{
+				"id": 3,
+				"name": "Добро (сам)",
+				"money": {
+					"value": 800,
+					"currency": "RUB"
+				}
+			}
+		]
 	}
 }

@@ -7,10 +7,6 @@
 </script>
 
 <div class={className}>
-  {#if cut}
-    {cutNumber(money.value)}
-  {:else}
-    {money.value.toLocaleString('ru-RU')}
-  {/if}
+  {cutNumber(money.value, cut)}
   <Currency currency={money.currency}/>
 </div>

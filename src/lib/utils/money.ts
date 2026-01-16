@@ -1,4 +1,4 @@
-export const cutNumber = (n: number) => {
+export const cutNumber = (n: number, cut = true) => {
   const format = (toCut: number, letter: string) => {
     const str = String(n)
 
@@ -9,6 +9,10 @@ export const cutNumber = (n: number) => {
     }
     return main + '.' + part + letter;
   };
+
+  if (!cut) {
+    return n.toLocaleString('ru-RU');
+  }
 
   if (n > 999999) {
     return format(6, "м");
