@@ -46,6 +46,14 @@ export type Income = {
   summary: Summary[]
 }
 
+export type Pass = {
+  val: Money;
+  toPass: Money;
+  sallaryNextMonth: MoneySigned;
+  yourCurrentIncome: Money;
+  yourTotalIncome: MoneySigned;
+}
+
 export type Order = {
   id: string;
   date: string;
@@ -54,4 +62,5 @@ export type Order = {
   client: Client;
   yourOutlay: YourOutlay;
   income: Income;
+  pass: Pass;
 }

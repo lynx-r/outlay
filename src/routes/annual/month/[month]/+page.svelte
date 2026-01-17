@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Money from "$lib/components/Money.svelte";
-	import MoneySigned from "$lib/components/MoneySigned.svelte";
+	import MoneyCut from "$lib/components/MoneyCut.svelte";
+	import MoneySignedCut from "$lib/components/MoneySignedCut.svelte";
 	import OrderStatus from "$lib/components/OrderStatus.svelte";
 	import type { PageProps } from "./$types";
 
@@ -33,9 +33,9 @@
         </div>
         <hr class="border-gray-700 my-2">
         <div class="flex justify-between">
-          <Money class="blue" money={order.firmBalance}/>
-          <Money class="orange" money={order.income}/>
-          <MoneySigned money={order.earning}/>
+          <MoneyCut class="blue" money={order.firmBalance}/>
+          <MoneyCut class="orange" money={order.income}/>
+          <MoneySignedCut money={order.earning}/>
         </div>
       </div>
     {/each}

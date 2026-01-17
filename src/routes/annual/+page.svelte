@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Money from "$lib/components/Money.svelte";
-	import MoneySigned from "$lib/components/MoneySigned.svelte";
+	import Money from "$lib/components/MoneyLocal.svelte";
+	import MoneySigned from "$lib/components/MoneySignedLocal.svelte";
 	import type { Annual } from "$lib/types";
 	import type { PageProps } from "./$types";
 

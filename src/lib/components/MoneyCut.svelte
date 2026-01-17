@@ -3,10 +3,10 @@
 	import { cutNumber } from "$lib/utils";
 	import Currency from "./Currency.svelte";
 
-  const {money, class: className, cut = true}: {money: Money, class?: string, cut?: boolean} = $props()
+  const {money, class: className}: {money: Money, class?: string} = $props()
 </script>
 
 <div class={className}>
-  {cutNumber(money.value, cut)}
+  {cutNumber(money.value, true)}
   <Currency currency={money.currency}/>
 </div>

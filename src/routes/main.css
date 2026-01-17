@@ -15,17 +15,6 @@
   --color-white: #aaacb4;
 }
 
-[data-theme='dark'] {
-	--pico-text-selection-color: rgba(245, 107, 61, 0.1875);
-	--pico-primary: #f56b3d;
-	--pico-primary-background: #d24317;
-	--pico-primary-underline: rgba(245, 107, 61, 0.5);
-	--pico-primary-hover: #f8a283;
-	--pico-primary-hover-background: #e74b1a;
-	--pico-primary-focus: rgba(245, 107, 61, 0.375);
-	--pico-primary-inverse: #fff;
-}
-
 .black {
   color: var(--color-black)
 }
@@ -52,6 +41,10 @@
 
 .blue {
   color: var(--blue);
+}
+
+.border-blue {
+	border: 1px solid var(--blue);
 }
 
 .green {
@@ -99,23 +92,29 @@ body {
 	width: 360px;
 	margin: 0 auto;
 	overflow: hidden auto;
-	transform-origin: top center;
+	/* transform-origin: top center; */
 }
 
 @media (min-width: 360px) and (max-width: 374px) {
 	#app {
-		transform: scale(0.95);
+		width: 342px;
+		font-size: 0.95rem;
+		/* transform: scale(0.95); */
 	}
 }
 
 @media (min-width: 402px) and (max-width: 440px) {
 	#app {
-		transform: scale(1.1);
+		width: 396px;
+		font-size: 1.1rem;
+		/* transform: scale(1.1); */
 	}
 }
 
 @media (min-width: 441px) {
 	#app {
-		transform: scale(1.25);
+		width: 450px;
+		font-size: 1.25rem;
+		/* transform: scale(1.25); */
 	}
 }

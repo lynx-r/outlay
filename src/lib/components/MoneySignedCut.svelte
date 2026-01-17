@@ -3,17 +3,18 @@
 	import { cutNumber } from "$lib/utils";
 	import Currency from "./Currency.svelte";
 
-  const {money, cut = true}: {money: MoneySigned, cut?: boolean} = $props()
+  const {money, class: className}: {money: MoneySigned, class?: string} = $props()
 </script>
 
 <div 
   class:green={money.sign}
   class:red={!money.sign}
+  class={className}
   >
   {#if money.sign}
-    +{cutNumber(money.value, cut)}
+    +{cutNumber(money.value, true)}
   {:else}
-    -{cutNumber(money.value, cut)}
+    -{cutNumber(money.value, true)}
   {/if}
   <Currency currency={money.currency}/>
 </div>

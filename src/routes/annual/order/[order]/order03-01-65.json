@@ -141,5 +141,29 @@
 				}
 			}
 		]
+	},
+	"pass": {
+		"val": {
+			"value": 11500,
+			"currency": "RUB"
+		},
+		"toPass": {
+			"value": 9200,
+			"currency": "RUB"
+		},
+		"sallaryNextMonth": {
+			"value": 2300,
+			"currency": "RUB",
+			"sign": true
+		},
+		"yourCurrentIncome": {
+			"value": 2300,
+			"currency": "RUB"
+		},
+		"yourTotalIncome": {
+			"value": 700,
+			"currency": "RUB",
+			"sign": false
+		}
 	}
 }
